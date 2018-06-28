@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$1" == "--top5" ]; then
+    python earthquake_analysis.py quakes --top5
+elif [ "$1" == "--california" ]; then
+    python earthquake_analysis.py quakes --california
+fi
