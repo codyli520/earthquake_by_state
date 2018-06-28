@@ -1,3 +1,5 @@
+Python version : 3.6.5
+
 To run this tool as a shell command:
 
 1. Move/copy the "quakes" file to /usr/local/bin
@@ -12,5 +14,5 @@ To run this tool as a shell command:
 To run this tool as a Python script:
 
 1. In terminal, run either:
-   `python earthquake_analysis.py quakes --california`
-   `python earthquake_analysis.py quakes --top5`
+   `python3 earthquake_analysis.py quakes --california`
+   `python3 earthquake_analysis.py quakes --top5`
